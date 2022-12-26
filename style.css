@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body {
+  background-color: red;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+  /* position: absolute; */
+}
+.container {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.35);
+  border-radius: 9px;
+  /* position: relative; */
+  width: 100rem;
+  height: 60rem;
+  backdrop-filter: blur(200px);
+  filter: blur();
+  /* margin: auto auto; */
+  /* transform: translate(40%); */
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+}
+.player {
+  width: 100%;
+  /* background-color: blue; */
+  display: flex;
+  font-weight: 300;
+  justify-content: space-between;
+  align-items: center;
+  padding: 9.6rem;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+.player--details {
+  font-size: 2.8rem;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  color: #c7365f;
+}
+.current {
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  background-color: #c7365f;
+  padding: 2.8rem;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  gap: 1rem;
+  /* justify-content: center; */
+  align-items: center;
+}
+.current-score {
+}
+.player--active {
+  background-color: rgba(255, 255, 255, 0.4);
+  font-weight: 700;
+}
+.btn {
+  position: relative;
+  font-size: 2.4rem;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+  border-radius: 25px;
+  border: none;
+  transition: all 0.2s;
+}
+
+.btn--new {
+}
+.btn--roll {
+}
+.btn--hold {
+}
+.icons {
+  height: 2.8rem;
+}
+.img {
+  /* z-index: 1; */
+  width: 8.6rem;
+  height: 8.6rem;
+}
+.hidden {
+  display: none;
+}
+.center-btn-containers {
+  position: absolute;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.winner-title {
+  position: absolute;
+}
+.winner0 {
+  left: 12%;
+  top: 3%;
+}
+.winner1 {
+  right: 10%;
+  top: 3%;
+}
+.winner-title h4 {
+  font-size: 3.8rem;
+  color: #c7365f;
+}
+
+.win {
+  background-color: #ffff00;
+}
